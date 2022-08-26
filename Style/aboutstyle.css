@@ -1,0 +1,141 @@
+html{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+body {
+    background-color: cornflowerblue;
+    background-image: linear-gradient(67deg, rgba(176, 36, 108, 0.91) 38%,rgba(20, 142, 213, 0.91) 100% );
+    margin: opx;
+    min-height: 100%;
+    width: 100%;
+}
+/*top of the page main menu*/
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    margin-right: auto;
+    font-weight: 700;
+}
+.clicky {
+    display: flex;
+    gap: 40px;
+    margin-right: 60px;
+    justify-content: space-around;
+    position: relative;
+    background-color: goldenrod;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+/*This is all the button specfic stuff. Styling, effects, ect.*/
+.button {
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+/*Makes button number 1 do the liitle background fade move thing. Really cool.
+just touch the colors to change it. or the translate values to make it move
+diffrently. Don't touch anything else.*/
+.btn1 {
+    background-color: wheat;
+    border-radius: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+.btn1::after, .btn1::before {
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    background-color: wheat;
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3s ease-in-out;
+}
+.btn1:hover {
+    transform: translate(20px, 20px);
+
+}
+.btn1:hover::after {
+    transform: translate(-18px, -18px);
+
+}
+.btn1:hover::before {
+    transform: translate(-10px, -10px);
+}
+/*Repeat of button 1. Same color and direction.*/
+
+.btn2 {
+    background-color: wheat;
+    border-radius: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+.btn2::after, .btn2::before {
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    background-color: wheat;
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3s ease-in-out;
+}
+.btn2:hover {
+    transform: translate(20px, 20px);
+
+}
+.btn2:hover::after {
+    transform: translate(-18px, -18px);
+
+}
+.btn2:hover::before {
+    transform: translate(-10px, -10px);
+}
+/*Repeat for button 3. Same color and direction*/
+
+.btn3 {
+    background-color: wheat;
+    border-radius: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+.btn3::after, .btn3::before {
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    background-color: wheat;
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3s ease-in-out;
+}
+.btn3:hover {
+    transform: translate(20px, 20px);
+
+}
+.btn3:hover::after {
+    transform: translate(-18px, -18px);
+
+}
+.btn3:hover::before {
+    transform: translate(-10px, -10px);
+}
