@@ -1,5 +1,20 @@
+html{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
 body {
     background-color: cornflowerblue;
+    background-image: linear-gradient(67deg, rgba(176, 36, 108, 0.91) 38%,rgba(20, 142, 213, 0.91) 100% );
+    margin: opx;
+    min-height: 100%;
+    width: 100%;
 }
 /*top of the page main menu*/
 .menu-container {
@@ -17,7 +32,9 @@ body {
     margin-right: 60px;
     justify-content: space-around;
     position: relative;
-    background-color: cornflowerblue;
+    background-color: goldenrod;
+    padding: 10px;
+    border-radius: 20px;
     
 }
 /*This is all the button specfic stuff. Styling, effects, ect.*/
@@ -124,7 +141,8 @@ diffrently. Don't touch anything else.*/
 }
 
 
-
+/*Entry and intro little paragraph and picture. Cute and basically a header
+styling is good. But needs content to make sure it all fits good. */
 
 
 .header {
@@ -132,12 +150,45 @@ diffrently. Don't touch anything else.*/
     justify-content: center;
     align-items: center;
     padding: 60px;
+    max-height: 400px;
+    max-width: 100%;
+
 }
 .right {
     margin-left: auto;
-    margin-right: 150px;
+    margin-right: auto;
 }
 .intro {
     font-weight: 400;
     font-size: large;
+}
+.header-img {
+    margin-left: auto;
+    margin-right: 155px;
+    max-height: 400px;
+    max-width: 300px;
+}
+
+/*Little blog post spot. Telling about recent events and upcoming events.
+room for a picture. Cute*/
+
+.events {
+    display: flex;
+    background-color: hotpink;
+    justify-content: center;
+    align-items: center;
+    margin: 67px;
+    max-height: 400px;
+    max-width: 100%;
+
+}
+.blog-spot {
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog-img {
+    margin-left: auto;
+    max-height: 200px;
+    max-width: 200;
+
 }
