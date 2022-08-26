@@ -11,7 +11,7 @@ img {
 
 body {
     background-color: cornflowerblue;
-    background-image: linear-gradient(67deg, rgba(176, 36, 108, 0.91) 38%,rgba(20, 142, 213, 0.91) 100% );
+    background-image: linear-gradient(67deg, rgba(251, 96, 240, 0.3) 38%,rgba(80, 181, 213, 0.48) 100% );
     margin: opx;
     min-height: 100%;
     width: 100%;
@@ -152,6 +152,7 @@ styling is good. But needs content to make sure it all fits good. */
     padding: 60px;
     max-height: 400px;
     max-width: 100%;
+    background-color: brown;
 
 }
 .right {
@@ -175,7 +176,7 @@ room for a picture. Cute*/
 .events {
     background-color: hotpink;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding: 60px;
     max-height: 400px;
@@ -188,6 +189,8 @@ margin-right: auto;
     
 }
 .blog-img {
-    flex: 1 1 calc(400px);
     margin-left: auto;
+    margin-right: 50px;
+    max-height: 400px;
+    max-width: 300px;
 }

@@ -6,12 +6,16 @@ html{
 img {
     max-width: 100%;
     max-height: 100%;
+    border: 8px solid brown;
+    border-radius: 22px;
 }
 
 
 body {
     background-color: cornflowerblue;
-    background-image: linear-gradient(67deg, rgba(176, 36, 108, 0.91) 38%,rgba(20, 142, 213, 0.91) 100% );
+    background-image: linear-gradient(67deg,
+     rgba(251, 96, 240, 0.67) 38%,
+     rgba(80, 181, 213, 0.48) 100% );
     margin: opx;
     min-height: 100%;
     width: 100%;
@@ -138,4 +142,26 @@ diffrently. Don't touch anything else.*/
 }
 .btn3:hover::before {
     transform: translate(-10px, -10px);
+}
+
+/*Styling for the top 4 images in the about me blog. Should be one line. 
+no wrapping. all on the top*/
+
+.top-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 400px;
+    max-width: 100%;
+    gap: 55px;
+    padding-top: 22px;
+    padding-left: 37px;
+    padding-right: 37px;
+}
+.blogimage {
+    flex: 1 1 calc(300px);
+    border: 12px, solid, brown;
+    border-radius: 22px;
+    max-height: 300px;
+    max-width: 250px;
 }
