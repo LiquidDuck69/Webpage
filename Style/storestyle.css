@@ -142,9 +142,36 @@ diffrently. Don't touch anything else.*/
     transform: translate(-10px, -10px);
 }
 
+/*Styling for my own cards. Simple, hoepfully.
+And hopefully functional*/
+.over-all-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    display: flex;
+    max-height: 45vh;
+    gap: 1vw;
+    max-width: 40vw;
+    min-width: 100px;
+    margin: 2vw;
+    border: 5px double brown;
+    overflow: scroll;
+}
+.product-image {
+    max-width: 10vw;
+    
+}
+.product-text {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 20vw;
+}
+
 /*Styling for the actual cards and slide bar thing*/
 
-.product {
+/*.product {
     position: relative;
     overflow: hidden;
     padding: 20px;
@@ -159,7 +186,7 @@ diffrently. Don't touch anything else.*/
 
 /*Styling for the product cards themselves*/
 
-.product-container {
+/*.product-container {
     padding: 0 10vw;
     display: flex;
     overflow-x: auto;
@@ -237,4 +264,33 @@ diffrently. Don't touch anything else.*/
 .price {
     font-weight: 900;
     font-size: 20px;
+}
+/*Scroll arrow shit. Wierd shit*/
+
+/*.pre-btn .nxt-btn {
+    border: none;
+    width: 10vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0)0%,
+     #fff 100%);
+     cursor: pointer;
+     z-index: 8;
+}
+.pre-btn {
+    left: 0;
+}
+.nxt-btn {
+    right: 0;
+    transform: rotate(180deg);
+}
+.pre-btn img, .nxt-btn img {
+    opacity: 0.2;
+}
+.pre-btn:hover img, .nxt-btn:hover img {
+    opacity: 1;
 }
