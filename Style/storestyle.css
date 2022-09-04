@@ -154,9 +154,8 @@ And hopefully functional*/
     max-height: 45vh;
     gap: 1vw;
     max-width: 40vw;
-    min-width: 100px;
     margin: 2vw;
-    border: 5px double brown;
+    /*border: 5px double brown;*/
     overflow: scroll;
 }
 .product-image {
@@ -168,7 +167,23 @@ And hopefully functional*/
     flex-wrap: wrap;
     max-width: 20vw;
 }
+ /* Styling for the cart buttons. Has some styling from
+ the other buttons*/
 
+ .btn4 {
+    background-color: green;
+    border: 4px double brown;
+    transition: ease-in-out .5s;
+    border-radius: 18px;
+    font-weight: 700;
+ }
+ .btn4:hover {
+    transform: scale(0.8);
+ }
+ .btn4:active {
+    transform: scale(0.9);
+    transition: ease-in-out 0.055s;
+ }
 /*Styling for the actual cards and slide bar thing*/
 
 /*.product {
