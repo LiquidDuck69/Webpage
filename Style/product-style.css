@@ -162,3 +162,15 @@ diffrently. Don't touch anything else.*/
 .prodimage {
     max-height: 30vh;
 }
+/*Add to cart styling*/
+.btn-buy {
+    color: black;
+    background-color: wheat;
+    border: 4px double brown;
+    border-radius: 45%;
+    margin-top: 20px;
+    transform: translate(0.25s, ease-in-out);
+}
+.btn-buy:active {
+    transform: scale(0.8);
+}
