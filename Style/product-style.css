@@ -162,7 +162,13 @@ diffrently. Don't touch anything else.*/
 .prodimage {
     max-height: 30vh;
 }
-/*Add to cart styling*/
+/*Add to cart styling and price tag*/
+.price {
+    background-color: goldenrod;
+    border: 6px solid saddlebrown;
+    border-radius: 67%;
+    color: whitesmoke;
+}
 .btn-buy {
     color: black;
     background-color: wheat;
