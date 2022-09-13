@@ -11,7 +11,10 @@ app.set('view engine', 'hbs');
 app.get("/",(req, res)=> {
     res.render('index');
 })
-app.get('/index.hbs',(req, res)=> {
+
+app.use('/', require('./routes/pages'));
+
+/*app.get('/index.hbs',(req, res)=> {
     res.render('index');
 })
 app.get('/about.hbs',(req, res)=> {
@@ -31,7 +34,7 @@ app.get('/stuffie.hbs',(req, res)=> {
 })
 app.get('/two-tone.hbs',(req, res)=> {
     res.render('two-tone');
-})
+})*/
 
 app.listen(5000, () => {
     console.log("Server is running on port 5000")
