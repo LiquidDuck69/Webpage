@@ -114,12 +114,12 @@ diffrently. Don't touch anything else.*/
 }
 /*Repeat for button 3. Same color and direction*/
 
-.btn3 {
+.btn3, .btn4 {
     background-color: wheat;
     border-radius: 30px;
     transition: transform 0.3s ease-in-out;
 }
-.btn3::after, .btn3::before {
+.btn3::after, .btn3::before, .btn4::after, .btn4::before {
     content: "";
     position: absolute;
     opacity: 0.3;
@@ -132,15 +132,15 @@ diffrently. Don't touch anything else.*/
     z-index: -1;
     transition: transform 0.3s ease-in-out;
 }
-.btn3:hover {
+.btn3:hover, .btn4:hover {
     transform: translate(20px, 20px);
 
 }
-.btn3:hover::after {
+.btn3:hover::after, .btn4:hover::after {
     transform: translate(-18px, -18px);
 
 }
-.btn3:hover::before {
+.btn3:hover::before, .btn4:hover::before {
     transform: translate(-10px, -10px);
 }
 

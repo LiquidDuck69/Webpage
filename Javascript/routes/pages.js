@@ -13,6 +13,10 @@ router.get('/hood.hbs', hoodCtrlFunction);
 router.get('/stuffie.hbs', stuffieCtrlFunction);
 router.get('/two-tone.hbs', twotoneCtrlFunction);
 
+module.exports = router;
+
+
+
 
 
 
