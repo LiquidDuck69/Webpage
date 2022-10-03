@@ -26,3 +26,6 @@ exports.twotoneCtrlFunction = (req, res) => {
     res.render('two-tone');
 }
 
+exports.cartCtrlFunction = (req, res) => {
+    res.render('cart');
+}
